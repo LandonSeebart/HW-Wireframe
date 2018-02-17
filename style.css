@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Background: #777;
+    Content: #ebebeb;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+header {
+    height: 70px;
+    width: 960px;
+    background: #ebebeb;
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 70px;
+    width: 960px;
+    background: #ebebeb;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 230px;
+    width: 495px;
+    background: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    height: 230px;
+    width: 445px;
+    background: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+article {
+    background: #777;
+    margin: 10px 10px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article p {
+    color: #ebebeb;
+}
+
+footer {
+    height: 70px;
+    width: 960px;
+    margin: 10px;
+    background: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #ebebeb;
+    height: 45px;
+    width: 355px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.own { 
+    background: #ebebeb;
+    height: 45px;
+    width: 355px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+}
